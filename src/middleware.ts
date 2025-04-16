@@ -3,7 +3,7 @@ import { NextResponse } from 'next/server'
 import type { NextRequest } from 'next/server'
  
 const originAllowed = process.env.NODE_ENV === 'production' ?
-  ['https://example.com', 'https://example.com','http://localhost:5173'] :
+  ['https://example.com', 'https://form-validation-eight-omega.vercel.app','http://localhost:5173'] :
   ['http://localhost:3000', 'https://www.google.com','http://localhost:5173']
 
 

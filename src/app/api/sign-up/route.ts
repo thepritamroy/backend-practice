@@ -14,7 +14,7 @@ export async function POST(req:Request) {
     {
       status : 409,
       headers : {
-        'Access-Control-Allow-Origin': origin || '*',
+      'Access-Control-Allow-Origin': origin || '*',
       'Access-Control-Allow-Methods': 'GET, POST, PUT, DELETE, OPTIONS',
       'Access-Control-Allow-Headers': 'Content-Type, Authorization',
       'Access-Control-Allow-Credentials': 'true',
@@ -37,7 +37,7 @@ export async function POST(req:Request) {
   {
     status : 200,
     headers : {
-      'Access-Control-Allow-Origin': origin || '*',
+    'Access-Control-Allow-Origin': origin || '*',
     'Access-Control-Allow-Methods': 'GET, POST, PUT, DELETE, OPTIONS',
     'Access-Control-Allow-Headers': 'Content-Type, Authorization',
     'Access-Control-Allow-Credentials': 'true',
